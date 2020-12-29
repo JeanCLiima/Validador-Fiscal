@@ -1,0 +1,35 @@
+Feito:
+Importando Extrato Sefaz
+
+NFC-e:
+Confere CST X CFOP (00, 20, 40 = 5102 / 60 = 5405)
+Confere CST <> 00 s/ CBenef e CST 00 c/ CBenef
+Confere CST 20 s/ Red BC e CST 00 c/ Red BC
+Confere CST 40 c/ Aliquota e CST (00, 20 ,60) s/ Aliquota
+
+NF-e Não Consum Final:
+Confere CST X CFOP (00, 20, 40 = 6202, 5202 / 60 = 5411, 6411 / 50 = 6915 / 51, 41 = 5915)
+Confere CST <> 00 s/ CBenef e CST 00 c/ CBenef
+Confere CST 20 s/ Red BC e CST 00 c/ Red BC
+
+
+NF-e Consum Final:
+Confere CST X CFOP (00, 20, 40 = 5102, 6102, 5910, 5929 / 60 = 5405, 5656, 6404, 6656, 5910, 5929)
+Confere CST <> 00 s/ CBenef e CST 00 c/ CBenef
+Confere CST 20 s/ Red BC e CST 00 c/ Red BC
+
+Em desenvolvimento:
+
+Compara dados do Sefaz com BD
+
+NF-e:
+Conferir Aliquotas
+Conferir Naturezas de Operações com CFOP
+
+NF-e Não Consum Final:
+Agregar a analise de CST X CFOP os CFOP de saída ST, porem conferindo Valores de ST Retid Anterior Muito Abaixo do esperado ou muito Acima.
+
+Entradas: 
+Conferir CFOP X CFOP
+Conferir CST X CST
+Conferir Valores Agregados Manualmentes pós importação.
